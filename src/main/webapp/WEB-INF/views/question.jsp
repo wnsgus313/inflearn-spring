@@ -12,7 +12,7 @@
 <%@ page import="com.inflearn.dao.QuestionDao, com.inflearn.beans.Question" %>
 
 
-<a href="community.jsp">질문 목록</a><br/>  
+<a href="/community">질문 목록</a><br/>  
 
 <p class="question">제목 <span class="question">${q.getTitle()}</span></p>
 <p class="question">내용 <span class="question">${q.getContent()}</span></p>
